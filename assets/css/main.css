@@ -627,17 +627,17 @@ h6 a {
 # about
 --------------------------------------------------------------*/
 .sec-padding {
-  padding: 80px 0px;
+  padding: 70px 0px;
   background-color: #000000;
 }
 @media only screen and (max-width: 1199px) {
   .sec-padding {
-    padding: 70px 0px;
+    padding: 60px 0px;
   }
 }
 @media only screen and (max-width: 991px) {
   .sec-padding {
-    padding: 60px 0px;
+    padding: 50px 0px;
   }
 }
 @media only screen and (max-width: 767px) {

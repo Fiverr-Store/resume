@@ -1,0 +1,78 @@
+/*--------------------------------------------------------------
+# images-sec
+--------------------------------------------------------------*/
+
+
+.images-sec {
+ background-image: url('../img/resume/patern.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+  .testimonial-item {
+    box-sizing: content-box;
+    margin: 60px 30px;
+    background: #fff;
+    text-align: center;
+    @media only screen and (max-width: 1199px) {
+     padding: 40px 30px;
+    }
+
+
+    @media only screen and (max-width: 767px) {
+
+     margin: 10px 20px;
+    }
+  }
+
+  .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+    @media only screen and (max-width: 767px) {
+     margin-top: 5px;
+    }
+
+    .swiper-pagination-bullet {
+      width: 40px;
+      height: 3px;
+      border-radius: 0;
+      background-color: #fff;
+      opacity: 1;
+      background-color: $primary-color;
+      @media only screen and (max-width: 767px) {
+        width: 35px;
+      height: 3px;
+      }
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #fff;
+    }
+  }
+
+  .swiper-slide {
+    opacity: 0.3;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+
+  }
+}
+
+@media (max-width: 1199px) {
+  .img-slider {
+    .swiper-slide-active {
+      opacity: 1;
+    }
+
+    .swiper-pagination {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .img-slider .swiper-slide-next {
+    opacity: 1;
+    transform: scale(1.14);
+  }
+}

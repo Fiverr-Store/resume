@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------
+# main-footer
+--------------------------------------------------------------*/
+.main-footer{
+  text-align: center;
+
+  p{
+    font-size: 16px;
+  }
+  .copy{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    span{
+      font-size: 14px;
+    }
+  }
+
+}
+.footer-list{
+  padding-top: 30px;
+  border-bottom: 1px solid #222;
+  padding-bottom: 20px;
+  ul{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 18px;
+    li{
+      display: inline-block;
+      &:not(:last-child) {
+      margin-right: 3px;
+      }
+    }
+    a{
+     display: inline-block;
+     text-decoration: none;
+     img{
+      height: 36px;
+     }
+    }
+  }
+}

@@ -207,7 +207,7 @@
 	.btn-tell{
     display: inline-flex;
     align-items: center;
-    background-color: #34E719;
+    background-color: $primary-color;
     padding: 0 !important;
      i{
       width: 40px;
@@ -217,7 +217,7 @@
       justify-content: center;
       background-color: #fff;
       color: #34E719;
-      font-size: 20px;
+      font-size: 21px;
 
      }
      span{

@@ -47,14 +47,16 @@
     @media only screen and (max-width: 767px) {
      padding: 20px 20px;
     }
-    .ser-icon{
+    i{
+      font-style: normal;
       background-color: $bg-black;
-      color: $primary-color;
-      width: 45px;
-      height: 45px;
-      line-height: 45px;
+      padding: 7px 10px;
+      display: inline-flex;
+      align-self: flex-start;
       text-align: center;
       font-size: 22px;
+      font-weight: 700;
+      color: #ffbd59;
       margin-bottom: 6px;
     }
     h3{
@@ -72,8 +74,18 @@
        font-size: 16px;
       }
     }
-    .btn-buy{
+    .buy-fl{
+      display: flex;
+      flex-direction: column;
       margin-top: auto;
+      span{
+        font-size: 19px;
+        font-weight: 700;
+        color: #ffbd59;
+      }
+    }
+    .btn-buy{
+      
       background-color: $primary-color;
       color: $bg-black;
       padding: 10px 20px;
@@ -85,6 +97,10 @@
       &:hover,&:focus{
         background-color: darken($color: $primary-color, $amount: 15%);
         color: $bg-black;
+      }
+      @media only screen and (max-width: 767px) {
+       font-size: 15px;
+       padding: 9px 18px;
       }
     }
   }
@@ -149,6 +165,10 @@
       &:hover,&:focus{
         background-color: darken($color: $primary-color, $amount: 15%);
         color: $bg-black;
+      }
+
+      @media only screen and (max-width: 767px) {
+       font-size: 16px;
       }
 
   }

@@ -320,18 +320,18 @@ h6 a {
   text-decoration: none;
 }
 .navbar .navbar-brand img {
-  height: 33px;
+  height: 43px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 @media only screen and (max-width: 767px) {
   .navbar .navbar-brand img {
-    height: 30px;
+    height: 38px;
   }
 }
 @media only screen and (max-width: 482px) {
   .navbar .navbar-brand img {
-    height: 25px;
+    height: 35px;
   }
 }
 .navbar .navbar-nav .nav-item {
@@ -457,18 +457,18 @@ h6 a {
   padding: 0;
 }
 .sticky .navbar .navbar-brand img {
-  height: 33px;
+  height: 43px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 @media only screen and (max-width: 767px) {
   .sticky .navbar .navbar-brand img {
-    height: 30px;
+    height: 38px;
   }
 }
 @media only screen and (max-width: 482px) {
   .sticky .navbar .navbar-brand img {
-    height: 25px;
+    height: 35px;
   }
 }
 .sticky .navbar .navbar-toggler .toggler-icon {

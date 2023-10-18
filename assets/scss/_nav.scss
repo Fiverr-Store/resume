@@ -31,13 +31,13 @@
 		padding: 0;
     text-decoration: none;
 		img {
-			height: 33px;
+			height: 43px;
 			transition: all 0.4s ease-in-out;
 			@media only screen and (max-width: 767px) {
-				height: 30px;
+				height: 38px;
 			}
       @media only screen and (max-width: 482px) {
-        height: 25px;
+        height: 35px;
        }
 		}
 	}
@@ -168,16 +168,16 @@
 
 		.navbar-brand {
 			padding: 0;
-      img {
-        height: 33px;
-        transition: all 0.4s ease-in-out;
-        @media only screen and (max-width: 767px) {
-          height: 30px;
-        }
-        @media only screen and (max-width: 482px) {
-         height: 25px;
-        }
-      }
+    	img {
+				height: 43px;
+				transition: all 0.4s ease-in-out;
+				@media only screen and (max-width: 767px) {
+					height: 38px;
+				}
+				@media only screen and (max-width: 482px) {
+					height: 35px;
+				 }
+			}
 		}
 
 		.navbar-toggler .toggler-icon {

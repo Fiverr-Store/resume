@@ -3,11 +3,11 @@
 --------------------------------------------------------------*/
 ::-moz-selection {
   color: #fff;
-  background: rgba(255, 189, 89, 0.6);
+  background: rgba(75, 213, 255, 0.6);
 }
 ::selection {
   color: #fff;
-  background: rgba(255, 189, 89, 0.6);
+  background: rgba(75, 213, 255, 0.6);
 }
 
 html {
@@ -40,7 +40,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ffbd59;
+  color: #4BD5FF;
 }
 a:focus, a:hover {
   text-decoration: none;
@@ -85,7 +85,7 @@ h6 a {
 .scroll-top {
   width: 30px;
   height: 30px;
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,8 +111,8 @@ h6 a {
   color: #000000;
   -webkit-transform: translateY(-4px);
           transform: translateY(-4px);
-  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 189, 89, 0.5);
-          box-shadow: 0 0 0 0.25rem rgba(255, 189, 89, 0.5);
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(75, 213, 255, 0.5);
+          box-shadow: 0 0 0 0.25rem rgba(75, 213, 255, 0.5);
 }
 
 /*--------------------------------------------------------------
@@ -157,7 +157,7 @@ h6 a {
   width: 6px;
   height: 18px;
   border-radius: 20%;
-  background: #ffbd59;
+  background: #4BD5FF;
 }
 
 .lds-spinner div:nth-child(1) {
@@ -274,9 +274,9 @@ h6 a {
   transition: all 0.2s ease-in;
 }
 .btn-main:hover {
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
   color: #000000;
-  border-color: #ffbd59;
+  border-color: #4BD5FF;
 }
 @media only screen and (max-width: 767px) {
   .btn-main {
@@ -336,7 +336,7 @@ h6 a {
 }
 .navbar .navbar-nav .nav-item {
   position: relative;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 @media only screen and (max-width: 991px) {
   .navbar .navbar-nav .nav-item {
@@ -345,7 +345,7 @@ h6 a {
 }
 .navbar .navbar-nav .nav-item a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 13px;
   color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
@@ -361,7 +361,7 @@ h6 a {
   }
 }
 .navbar .navbar-nav .nav-item a:hover, .navbar .navbar-nav .nav-item a.active {
-  color: #ffbd59;
+  color: #4BD5FF;
 }
 @media only screen and (max-width: 991px) {
   .navbar .navbar-nav .nav-item a {
@@ -505,7 +505,7 @@ h6 a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
   padding: 0 !important;
 }
 .social li .btn-tell i {
@@ -608,7 +608,7 @@ h6 a {
 
 @-webkit-keyframes blink {
   from, to {
-    color: #ffbd59;
+    color: #4BD5FF;
   }
   50% {
     color: transparent;
@@ -616,7 +616,7 @@ h6 a {
 }
 @keyframes blink {
   from, to {
-    color: #ffbd59;
+    color: #4BD5FF;
   }
   50% {
     color: transparent;
@@ -698,7 +698,7 @@ h6 a {
   text-align: center;
   font-size: 22px;
   font-weight: 700;
-  color: #ffbd59;
+  color: #4BD5FF;
   margin-bottom: 6px;
 }
 @media only screen and (max-width: 767px) {
@@ -742,7 +742,7 @@ h6 a {
   color: #ffbd59;
 }
 .services .ser-single .btn-buy {
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
   color: #000000;
   padding: 10px 20px;
   font-size: 16px;
@@ -756,7 +756,7 @@ h6 a {
   transition: all 0.2s ease-in;
 }
 .services .ser-single .btn-buy:hover, .services .ser-single .btn-buy:focus {
-  background-color: #ff9f0d;
+  background-color: #00c2fe;
   color: #000000;
 }
 @media only screen and (max-width: 767px) {
@@ -811,7 +811,7 @@ h6 a {
   max-width: 250px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
   color: #000000;
   font-weight: 700;
   font-size: 18px;
@@ -822,7 +822,7 @@ h6 a {
   transition: all 0.2s ease-in;
 }
 .contact .btn-submit:hover, .contact .btn-submit:focus {
-  background-color: #ff9f0d;
+  background-color: #00c2fe;
   color: #000000;
 }
 @media only screen and (max-width: 767px) {
@@ -848,6 +848,16 @@ h6 a {
 }
 .contact .payment-methods a img {
   height: 30px;
+}
+
+/*--------------------------------------------------------------
+  ## coming-con
+--------------------------------------------------------------*/
+.coming-con {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
@@ -891,7 +901,7 @@ h6 a {
   border-radius: 0;
   background-color: #fff;
   opacity: 1;
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
 }
 @media only screen and (max-width: 767px) {
   .images-sec .swiper-pagination .swiper-pagination-bullet {
@@ -1014,7 +1024,7 @@ h6 a {
   margin-right: auto;
 }
 .modal-confirm .btn-success {
-  background-color: #ffbd59 !important;
+  background-color: #4BD5FF !important;
 }
 
 .modal-confirm .modal-content {
@@ -1080,11 +1090,11 @@ h6 a {
           justify-content: center;
   border-radius: 50%;
   z-index: 9;
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
   text-align: center;
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
-  background-color: #ffbd59;
+  background-color: #4BD5FF;
 }
 
 .modal-confirm .icon-box i {

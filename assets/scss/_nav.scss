@@ -10,7 +10,7 @@
 	z-index: 99;
 	transition: all 0.3s ease-out 0s;
   background-color: transparent;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+	border-bottom: 1px solid transparent
 
 }
 
@@ -161,7 +161,7 @@
 	z-index: 99;
 	background-color: $bg-black;
 	transition: all 0.3s ease-out 0s;
-
+	border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 	.navbar {
 		padding: 12px 0;
 

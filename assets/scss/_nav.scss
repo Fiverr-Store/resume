@@ -10,6 +10,7 @@
 	z-index: 99;
 	transition: all 0.3s ease-out 0s;
   background-color: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.17);
 
 }
 
@@ -31,13 +32,19 @@
 		padding: 0;
     text-decoration: none;
 		img {
-			height: 43px;
+			height: 55px;
 			transition: all 0.4s ease-in-out;
+			@media only screen and (max-width: 1399px) {
+				height: 51px;
+			}
+			@media only screen and (max-width: 991px) {
+				height: 43px;
+			}
 			@media only screen and (max-width: 767px) {
 				height: 38px;
 			}
       @media only screen and (max-width: 482px) {
-        height: 35px;
+        height: 38px;
        }
 		}
 	}
@@ -169,13 +176,19 @@
 		.navbar-brand {
 			padding: 0;
     	img {
-				height: 43px;
+				height: 51px;
 				transition: all 0.4s ease-in-out;
+				@media only screen and (max-width: 1399px) {
+					height: 51px;
+				}
+				@media only screen and (max-width: 991px) {
+					height: 43px;
+				}
 				@media only screen and (max-width: 767px) {
 					height: 38px;
 				}
 				@media only screen and (max-width: 482px) {
-					height: 35px;
+					height: 38px;
 				 }
 			}
 		}

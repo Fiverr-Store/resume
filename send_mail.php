@@ -16,7 +16,7 @@ $subject = trim($subject);
 $phone = $_POST['phone'];
 $phone = trim($phone);
 
-$to = "resumes@theresumecorner.com";
+$to = "careers@careercatalys.com";
 
 
 $subject = "Client Intake Form";

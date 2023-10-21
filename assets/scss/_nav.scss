@@ -32,19 +32,19 @@
 		padding: 0;
     text-decoration: none;
 		img {
-			height: 55px;
+			height: 65px;
 			transition: all 0.4s ease-in-out;
 			@media only screen and (max-width: 1399px) {
-				height: 51px;
+				height: 55px;
 			}
 			@media only screen and (max-width: 991px) {
 				height: 43px;
 			}
 			@media only screen and (max-width: 767px) {
-				height: 38px;
+				height: 40px;
 			}
       @media only screen and (max-width: 482px) {
-        height: 38px;
+        height: 40px;
        }
 		}
 	}
@@ -176,19 +176,19 @@
 		.navbar-brand {
 			padding: 0;
     	img {
-				height: 51px;
+				height: 55px;
 				transition: all 0.4s ease-in-out;
 				@media only screen and (max-width: 1399px) {
-					height: 51px;
+					height: 55px;
 				}
 				@media only screen and (max-width: 991px) {
 					height: 43px;
 				}
 				@media only screen and (max-width: 767px) {
-					height: 38px;
+					height: 40px;
 				}
 				@media only screen and (max-width: 482px) {
-					height: 38px;
+					height: 40px;
 				 }
 			}
 		}

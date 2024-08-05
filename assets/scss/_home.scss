@@ -48,6 +48,7 @@
      padding: 20px 20px;
     }
     i{
+      font-family: $font-family-nunito;
       font-style: normal;
       background-color: $bg-black;
       padding: 7px 10px;
@@ -106,6 +107,10 @@
        font-size: 15px;
        padding: 9px 18px;
       }
+    }
+    transition: all .2s ease-in;
+    &:hover{
+      background-color: #2f2e2e;
     }
   }
 }
